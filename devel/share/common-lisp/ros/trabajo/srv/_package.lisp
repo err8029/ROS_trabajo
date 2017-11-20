@@ -1,0 +1,10 @@
+(cl:defpackage trabajo-srv
+  (:use )
+  (:export
+   "MULTIPLICADOR"
+   "<MULTIPLICADOR-REQUEST>"
+   "MULTIPLICADOR-REQUEST"
+   "<MULTIPLICADOR-RESPONSE>"
+   "MULTIPLICADOR-RESPONSE"
+  ))
+
