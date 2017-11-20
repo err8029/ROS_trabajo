@@ -1,0 +1,15 @@
+<launch>
+<node pkg="begginer_tutorials" name="nodo_emisor" type="nodo_emisor" respawn="true" output="screen" launch-prefix="xterm -e"/>
+<node pkg="begginer_tutorials" name="nodo_receptor" type="nodo_receptor" respawn="true" output="screen" launch-prefix="xterm -e"/>
+
+<node pkg="begginer_tutorials" name="nodo_servidor" type="nodo_servidor" respawn="true" output="screen"/>
+<node pkg="begginer_tutorials" name="nodo_cliente" type="nodo_cliente" respawn="true" output="screen"/>
+</launch>
+
+<!--
+pkg: nombre del paquete
+name: nombre con el que se registra el nodo
+type: indica el nombre del fichero ejecutable (el compilado en bin por catkin_make)
+respawn: se usa si el nodo muere automaticamente para volverlo a lanzar
+output: si la salida es en pantalla o en logs
+-->

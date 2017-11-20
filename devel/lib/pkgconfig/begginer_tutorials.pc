@@ -1,0 +1,8 @@
+prefix=/home/ericros/catkin_ws/devel
+
+Name: begginer_tutorials
+Description: Description of begginer_tutorials
+Version: 0.0.0
+Cflags: -I/home/ericros/catkin_ws/devel/include
+Libs: -L/home/ericros/catkin_ws/devel/lib 
+Requires: 

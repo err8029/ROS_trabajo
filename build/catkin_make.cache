@@ -1,0 +1,2 @@
+begginer_tutorials:trabajo
+-DCATKIN_DEVEL_PREFIX=/home/ericros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ericros/catkin_ws/install -G Unix Makefiles
