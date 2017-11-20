@@ -48,6 +48,7 @@ include trabajo/CMakeFiles/trabajo_generate_messages_cpp.dir/progress.make
 trabajo/CMakeFiles/trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/usuario.h
 trabajo/CMakeFiles/trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/inf_personal_usuario.h
 trabajo/CMakeFiles/trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/pos_usuario.h
+trabajo/CMakeFiles/trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h
 
 /home/ericros/catkin_ws/devel/include/trabajo/usuario.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
 /home/ericros/catkin_ws/devel/include/trabajo/usuario.h: /home/ericros/catkin_ws/src/trabajo/msg/usuario.msg
@@ -72,10 +73,19 @@ trabajo/CMakeFiles/trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from trabajo/pos_usuario.msg"
 	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg -Itrabajo:/home/ericros/catkin_ws/src/trabajo/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p trabajo -o /home/ericros/catkin_ws/devel/include/trabajo -e /opt/ros/indigo/share/gencpp/cmake/..
 
+/home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h: /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py
+/home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h: /home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv
+/home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h: /opt/ros/indigo/share/gencpp/cmake/../msg.h.template
+/home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h: /opt/ros/indigo/share/gencpp/cmake/../srv.h.template
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericros/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating C++ code from trabajo/multiplicador.srv"
+	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv -Itrabajo:/home/ericros/catkin_ws/src/trabajo/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p trabajo -o /home/ericros/catkin_ws/devel/include/trabajo -e /opt/ros/indigo/share/gencpp/cmake/..
+
 trabajo_generate_messages_cpp: trabajo/CMakeFiles/trabajo_generate_messages_cpp
 trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/usuario.h
 trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/inf_personal_usuario.h
 trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/pos_usuario.h
+trabajo_generate_messages_cpp: /home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h
 trabajo_generate_messages_cpp: trabajo/CMakeFiles/trabajo_generate_messages_cpp.dir/build.make
 .PHONY : trabajo_generate_messages_cpp
 

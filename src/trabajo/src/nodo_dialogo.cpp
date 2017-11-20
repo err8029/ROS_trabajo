@@ -1,5 +1,6 @@
 #include "ros/ros.h"
 #include "trabajo/usuario.h"
+#include "trabajo/multiplicador.h"
 
 void functionCallback(const trabajo::usuario::ConstPtr& msg)
 {
@@ -25,6 +26,20 @@ int main(int argc, char **argv)
     //si recibimos un mensaje cuyo topic sea: "mensajeTest_topic" llamamos a la
     //funcion mostradora: functionCallback
     ros::Subscriber subscriptor = nodoDialogo.subscribe("user_topic", 0, functionCallback);
+
+    ros::ServiceClient client = nodoDialogo.serviceClient<trabajo::multiplicador>("servicio_multiplicador");
+    trabajo::multiplicador srv;
+    srv.request.entrada = 2; //le damos un valor de prueba
+
+    if (client.call(srv))
+    {
+        ROS_INFO("respuesta del servicio: %d", (int)srv.response.resultado);
+    }
+    else
+    {
+        ROS_ERROR("Fallo al llamar al servicio: nombre_servicio");
+        return 1;
+    }
 
     /** loop infinito para que no finalice la ejecucion del nodo y este atento al topic
      * llamando la functionCallback si este es cierto

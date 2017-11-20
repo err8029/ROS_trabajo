@@ -3,6 +3,7 @@ FILE(REMOVE_RECURSE
   "/home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/usuario.lisp"
   "/home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/inf_personal_usuario.lisp"
   "/home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/pos_usuario.lisp"
+  "/home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/multiplicador.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

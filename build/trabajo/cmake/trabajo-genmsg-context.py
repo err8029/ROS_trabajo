@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = "/home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg;/home/ericros/catkin_ws/src/trabajo/msg/usuario.msg;/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg"
-services_str = ""
+services_str = "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv"
 pkg_name = "trabajo"
 dependencies_str = "std_msgs"
 langs = "gencpp;genlisp;genpy"

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "trabajo: 3 messages, 0 services")
+message(STATUS "trabajo: 3 messages, 1 services")
 
 set(MSG_I_FLAGS "-Itrabajo:/home/ericros/catkin_ws/src/trabajo/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -23,6 +23,11 @@ add_custom_target(_trabajo_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg" NAME_WE)
 add_custom_target(_trabajo_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trabajo" "/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg" ""
+)
+
+get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv" NAME_WE)
+add_custom_target(_trabajo_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "trabajo" "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv" ""
 )
 
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg" NAME_WE)
@@ -56,6 +61,12 @@ _generate_msg_cpp(trabajo
 )
 
 ### Generating Services
+_generate_srv_cpp(trabajo
+  "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/trabajo
+)
 
 ### Generating Module File
 _generate_module_cpp(trabajo
@@ -72,6 +83,8 @@ add_dependencies(trabajo_generate_messages trabajo_generate_messages_cpp)
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_cpp _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg" NAME_WE)
+add_dependencies(trabajo_generate_messages_cpp _trabajo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv" NAME_WE)
 add_dependencies(trabajo_generate_messages_cpp _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_cpp _trabajo_generate_messages_check_deps_${_filename})
@@ -105,6 +118,12 @@ _generate_msg_lisp(trabajo
 )
 
 ### Generating Services
+_generate_srv_lisp(trabajo
+  "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/trabajo
+)
 
 ### Generating Module File
 _generate_module_lisp(trabajo
@@ -121,6 +140,8 @@ add_dependencies(trabajo_generate_messages trabajo_generate_messages_lisp)
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_lisp _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg" NAME_WE)
+add_dependencies(trabajo_generate_messages_lisp _trabajo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv" NAME_WE)
 add_dependencies(trabajo_generate_messages_lisp _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_lisp _trabajo_generate_messages_check_deps_${_filename})
@@ -154,6 +175,12 @@ _generate_msg_py(trabajo
 )
 
 ### Generating Services
+_generate_srv_py(trabajo
+  "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/trabajo
+)
 
 ### Generating Module File
 _generate_module_py(trabajo
@@ -170,6 +197,8 @@ add_dependencies(trabajo_generate_messages trabajo_generate_messages_py)
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_py _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/inf_personal_usuario.msg" NAME_WE)
+add_dependencies(trabajo_generate_messages_py _trabajo_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv" NAME_WE)
 add_dependencies(trabajo_generate_messages_py _trabajo_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg" NAME_WE)
 add_dependencies(trabajo_generate_messages_py _trabajo_generate_messages_check_deps_${_filename})

@@ -3,6 +3,7 @@ FILE(REMOVE_RECURSE
   "/home/ericros/catkin_ws/devel/include/trabajo/usuario.h"
   "/home/ericros/catkin_ws/devel/include/trabajo/inf_personal_usuario.h"
   "/home/ericros/catkin_ws/devel/include/trabajo/pos_usuario.h"
+  "/home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h"
 )
 
 # Per-language clean rules from dependency scanning.

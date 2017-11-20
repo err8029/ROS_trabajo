@@ -48,7 +48,9 @@ include trabajo/CMakeFiles/trabajo_generate_messages_py.dir/progress.make
 trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
 trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
 trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
+trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
 trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py
+trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py
 
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py: /home/ericros/catkin_ws/src/trabajo/msg/usuario.msg
@@ -70,19 +72,37 @@ trabajo/CMakeFiles/trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/l
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python from MSG trabajo/pos_usuario"
 	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/ericros/catkin_ws/src/trabajo/msg/pos_usuario.msg -Itrabajo:/home/ericros/catkin_ws/src/trabajo/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p trabajo -o /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg
 
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py: /home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericros/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python code from SRV trabajo/multiplicador"
+	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/ericros/catkin_ws/src/trabajo/srv/multiplicador.srv -Itrabajo:/home/ericros/catkin_ws/src/trabajo/msg -Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg -p trabajo -o /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv
+
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericros/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_4)
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericros/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python msg __init__.py for trabajo"
 	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg --initpy
+
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py: /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
+/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ericros/catkin_ws/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating Python srv __init__.py for trabajo"
+	cd /home/ericros/catkin_ws/build/trabajo && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/indigo/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv --initpy
 
 trabajo_generate_messages_py: trabajo/CMakeFiles/trabajo_generate_messages_py
 trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
 trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
 trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
+trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
 trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py
+trabajo_generate_messages_py: /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py
 trabajo_generate_messages_py: trabajo/CMakeFiles/trabajo_generate_messages_py.dir/build.make
 .PHONY : trabajo_generate_messages_py
 

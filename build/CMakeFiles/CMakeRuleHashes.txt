@@ -2,6 +2,7 @@
 8ea96417ae3aaa995caf3c9c118931f5 /home/ericros/catkin_ws/devel/include/begginer_tutorials/mesajeTest.h
 ce7acfdb97fa879608c11db50d30cb28 /home/ericros/catkin_ws/devel/include/begginer_tutorials/tipo_servicio.h
 59792366290a5ed66d2d6a659e79ef8e /home/ericros/catkin_ws/devel/include/trabajo/inf_personal_usuario.h
+b0faee5ffc5d48d18570eea9996e7345 /home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h
 be73a7aa30d832db65e6fe8a1d9a4909 /home/ericros/catkin_ws/devel/include/trabajo/pos_usuario.h
 eef11192264fa75d23a26a4c92f5e279 /home/ericros/catkin_ws/devel/include/trabajo/usuario.h
 d07b08f95b4de490e86c7d6ab5c9f547 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/begginer_tutorials/msg/__init__.py
@@ -12,11 +13,14 @@ c5c303e7336e8c60d18e31b5ae656737 /home/ericros/catkin_ws/devel/lib/python2.7/dis
 4f73210384a9509b84121f1a47141a06 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py
 4816752e6f4852d0d37695cca3af3dc1 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py
 d5789ad12c1465179b92f037edff2955 /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py
+9ea176219e87dafac19d0cfb3d278fed /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py
+ac32e9795f9dfd1cdcedc98d56d575ca /home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py
 bc7c05155dd0a91c48d99d3078383d35 /home/ericros/catkin_ws/devel/share/common-lisp/ros/begginer_tutorials/msg/mesajeTest.lisp
 74457a9f9bdf662b8921ca51f5c86a48 /home/ericros/catkin_ws/devel/share/common-lisp/ros/begginer_tutorials/srv/tipo_servicio.lisp
 fe6d4764a7dd4bea7a5149570878375b /home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/inf_personal_usuario.lisp
 7ecfd99550733533a6e77368b3312cbe /home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/pos_usuario.lisp
 0fc4f636169cc322493f463b13a24937 /home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/msg/usuario.lisp
+c931bf90b93b2309ea6f8fc1cbfd5255 /home/ericros/catkin_ws/devel/share/common-lisp/ros/trabajo/srv/multiplicador.lisp
 6f34220c1c4db3b2bd4d27f1918c759e CMakeFiles/clean_test_results
 87d6c06bc9504de1af4b593805a8ec53 CMakeFiles/download_extra_data
 87d6c06bc9504de1af4b593805a8ec53 CMakeFiles/doxygen
@@ -41,6 +45,7 @@ fe6d4764a7dd4bea7a5149570878375b /home/ericros/catkin_ws/devel/share/common-lisp
 5a42d17b15fa92e825411f88a6717278 begginer_tutorials/CMakeFiles/std_msgs_generate_messages_lisp
 5a42d17b15fa92e825411f88a6717278 begginer_tutorials/CMakeFiles/std_msgs_generate_messages_py
 d642b25892c7e8dac816257b2b2fb629 trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_inf_personal_usuario
+c75ee971f7f5d73bf0b18ec3c2932ca0 trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador
 282c9da8707a73999743e375d5346abe trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_pos_usuario
 6cf8bb05dd7cf6607d876b59a136962d trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_usuario
 b1b92b6e2610bac2aae7827f08407db1 trabajo/CMakeFiles/trabajo_gencpp

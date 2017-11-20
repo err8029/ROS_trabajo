@@ -70,6 +70,10 @@ add_message_files(
 #   Service1.srv
 #   Service2.srv
 # )
+add_service_files(
+   FILES
+   multiplicador.srv
+ )
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -86,6 +90,7 @@ add_message_files(
 generate_messages(
     DEPENDENCIES
     std_msgs
+    
 )
 
 ################################################
@@ -155,6 +160,7 @@ add_executable(nodo_emocion_usuario src/nodo_emocion_usuario.cpp)
 add_executable(nodo_empaquetador src/nodo_empaquetador.cpp)
 add_executable(nodo_informacion_personal src/nodo_informacion_personal.cpp)
 add_executable(nodo_posicion_usuario src/nodo_posicion_usuario.cpp)
+add_executable(nodo_matematico src/nodo_matematico.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -188,6 +194,10 @@ target_link_libraries(nodo_informacion_personal
  )
 
 target_link_libraries(nodo_posicion_usuario
+   ${catkin_LIBRARIES}
+ )
+
+target_link_libraries(nodo_matematico
    ${catkin_LIBRARIES}
  )
 

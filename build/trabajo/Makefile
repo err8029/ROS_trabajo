@@ -164,6 +164,20 @@ _trabajo_generate_messages_check_deps_inf_personal_usuario/fast:
 .PHONY : _trabajo_generate_messages_check_deps_inf_personal_usuario/fast
 
 # Convenience name for target.
+trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/rule:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/rule
+.PHONY : trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/rule
+
+# Convenience name for target.
+_trabajo_generate_messages_check_deps_multiplicador: trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/rule
+.PHONY : _trabajo_generate_messages_check_deps_multiplicador
+
+# fast build rule for target.
+_trabajo_generate_messages_check_deps_multiplicador/fast:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/build.make trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir/build
+.PHONY : _trabajo_generate_messages_check_deps_multiplicador/fast
+
+# Convenience name for target.
 trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_pos_usuario.dir/rule:
 	cd /home/ericros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_pos_usuario.dir/rule
 .PHONY : trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_pos_usuario.dir/rule
@@ -246,6 +260,20 @@ nodo_informacion_personal: trabajo/CMakeFiles/nodo_informacion_personal.dir/rule
 nodo_informacion_personal/fast:
 	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_informacion_personal.dir/build.make trabajo/CMakeFiles/nodo_informacion_personal.dir/build
 .PHONY : nodo_informacion_personal/fast
+
+# Convenience name for target.
+trabajo/CMakeFiles/nodo_matematico.dir/rule:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 trabajo/CMakeFiles/nodo_matematico.dir/rule
+.PHONY : trabajo/CMakeFiles/nodo_matematico.dir/rule
+
+# Convenience name for target.
+nodo_matematico: trabajo/CMakeFiles/nodo_matematico.dir/rule
+.PHONY : nodo_matematico
+
+# fast build rule for target.
+nodo_matematico/fast:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_matematico.dir/build.make trabajo/CMakeFiles/nodo_matematico.dir/build
+.PHONY : nodo_matematico/fast
 
 # Convenience name for target.
 trabajo/CMakeFiles/nodo_posicion_usuario.dir/rule:
@@ -455,6 +483,30 @@ src/nodo_informacion_personal.cpp.s:
 	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_informacion_personal.dir/build.make trabajo/CMakeFiles/nodo_informacion_personal.dir/src/nodo_informacion_personal.cpp.s
 .PHONY : src/nodo_informacion_personal.cpp.s
 
+src/nodo_matematico.o: src/nodo_matematico.cpp.o
+.PHONY : src/nodo_matematico.o
+
+# target to build an object file
+src/nodo_matematico.cpp.o:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_matematico.dir/build.make trabajo/CMakeFiles/nodo_matematico.dir/src/nodo_matematico.cpp.o
+.PHONY : src/nodo_matematico.cpp.o
+
+src/nodo_matematico.i: src/nodo_matematico.cpp.i
+.PHONY : src/nodo_matematico.i
+
+# target to preprocess a source file
+src/nodo_matematico.cpp.i:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_matematico.dir/build.make trabajo/CMakeFiles/nodo_matematico.dir/src/nodo_matematico.cpp.i
+.PHONY : src/nodo_matematico.cpp.i
+
+src/nodo_matematico.s: src/nodo_matematico.cpp.s
+.PHONY : src/nodo_matematico.s
+
+# target to generate assembly for a file
+src/nodo_matematico.cpp.s:
+	cd /home/ericros/catkin_ws/build && $(MAKE) -f trabajo/CMakeFiles/nodo_matematico.dir/build.make trabajo/CMakeFiles/nodo_matematico.dir/src/nodo_matematico.cpp.s
+.PHONY : src/nodo_matematico.cpp.s
+
 src/nodo_posicion_usuario.o: src/nodo_posicion_usuario.cpp.o
 .PHONY : src/nodo_posicion_usuario.o
 
@@ -486,6 +538,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... _trabajo_generate_messages_check_deps_inf_personal_usuario"
+	@echo "... _trabajo_generate_messages_check_deps_multiplicador"
 	@echo "... _trabajo_generate_messages_check_deps_pos_usuario"
 	@echo "... _trabajo_generate_messages_check_deps_usuario"
 	@echo "... edit_cache"
@@ -497,6 +550,7 @@ help:
 	@echo "... nodo_emocion_usuario"
 	@echo "... nodo_empaquetador"
 	@echo "... nodo_informacion_personal"
+	@echo "... nodo_matematico"
 	@echo "... nodo_posicion_usuario"
 	@echo "... rebuild_cache"
 	@echo "... test"
@@ -519,6 +573,9 @@ help:
 	@echo "... src/nodo_informacion_personal.o"
 	@echo "... src/nodo_informacion_personal.i"
 	@echo "... src/nodo_informacion_personal.s"
+	@echo "... src/nodo_matematico.o"
+	@echo "... src/nodo_matematico.i"
+	@echo "... src/nodo_matematico.s"
 	@echo "... src/nodo_posicion_usuario.o"
 	@echo "... src/nodo_posicion_usuario.i"
 	@echo "... src/nodo_posicion_usuario.s"

@@ -3,6 +3,9 @@
 
 trabajo/CMakeFiles/nodo_dialogo.dir/src/nodo_dialogo.cpp.o
  /home/ericros/catkin_ws/devel/include/trabajo/inf_personal_usuario.h
+ /home/ericros/catkin_ws/devel/include/trabajo/multiplicador.h
+ /home/ericros/catkin_ws/devel/include/trabajo/multiplicadorRequest.h
+ /home/ericros/catkin_ws/devel/include/trabajo/multiplicadorResponse.h
  /home/ericros/catkin_ws/devel/include/trabajo/pos_usuario.h
  /home/ericros/catkin_ws/devel/include/trabajo/usuario.h
  /home/ericros/catkin_ws/src/trabajo/src/nodo_dialogo.cpp

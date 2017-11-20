@@ -1,6 +1,7 @@
 /home/ericros/catkin_ws/build/begginer_tutorials/CMakeFiles/_begginer_tutorials_generate_messages_check_deps_mesajeTest.dir
 /home/ericros/catkin_ws/build/begginer_tutorials/CMakeFiles/_begginer_tutorials_generate_messages_check_deps_tipo_servicio.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_inf_personal_usuario.dir
+/home/ericros/catkin_ws/build/trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_multiplicador.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_pos_usuario.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/_trabajo_generate_messages_check_deps_usuario.dir
 /home/ericros/catkin_ws/build/begginer_tutorials/CMakeFiles/begginer_tutorials_gencpp.dir
@@ -21,6 +22,7 @@
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/nodo_emocion_usuario.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/nodo_empaquetador.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/nodo_informacion_personal.dir
+/home/ericros/catkin_ws/build/trabajo/CMakeFiles/nodo_matematico.dir
 /home/ericros/catkin_ws/build/trabajo/CMakeFiles/nodo_posicion_usuario.dir
 /home/ericros/catkin_ws/build/begginer_tutorials/CMakeFiles/nodo_receptor.dir
 /home/ericros/catkin_ws/build/begginer_tutorials/CMakeFiles/nodo_servidor.dir

@@ -3,7 +3,9 @@ FILE(REMOVE_RECURSE
   "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_usuario.py"
   "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_inf_personal_usuario.py"
   "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/_pos_usuario.py"
+  "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/_multiplicador.py"
   "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/msg/__init__.py"
+  "/home/ericros/catkin_ws/devel/lib/python2.7/dist-packages/trabajo/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
